@@ -1,11 +1,7 @@
 """Unit tests for the main application."""
 
 import unittest
-import os
-import sys
 from mleng_sayhi.app import add_numbers
-
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 class TestApp(unittest.TestCase):
     """Test cases for the add_numbers function."""
