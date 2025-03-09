@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - prod
+  workflo_dispatch:
 
 jobs:
   build:
